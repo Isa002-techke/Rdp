@@ -23,7 +23,7 @@ jobs:
       - name: Create Autologin User  
         run: |  
           $username = "RDP"  
-          $password = "isabellahack"  
+          $password = "29822811"  
           net user $username $password /add  
           net localgroup administrators $username /add  
           net localgroup "Remote Desktop Users" $username /add  
@@ -89,7 +89,7 @@ jobs:
           Write-Host "`n=== RDP ACCESS ==="  
           Write-Host "Address: $env:TAILSCALE_IP"  
           Write-Host "Username: RDP"  
-          Write-Host "Password: isabellahack"  
+          Write-Host "Password: 29822811"  
           Write-Host "âœ… GPU driver installed"  
           Write-Host "âœ… Windows ultra optimized"  
           Write-Host "âœ… Tailscale ready"  
